@@ -1,0 +1,124 @@
+body{
+    overflow: hidden;
+}
+
+body {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(bac.gif);
+	background-size: cover;
+}
+
+#gameContainer {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#game {
+    width: 700px;
+    height: 450px;
+    background-color: #2c2b33;
+	border-radius: 5%;
+}
+
+#currentMultiplier {
+    position: absolute;
+    top: 130px;
+    left: 300px;
+    font-size: 50px;
+}
+
+#infoContainer {
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+	margin-top: -30px;
+	margin-left: 20px;
+}
+
+#balance {
+    color: lime;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#crashedAt {
+    margin-right: 5px;
+}
+
+#betContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#betContainer label {
+    margin-right: 5px;
+}
+
+#betAmount {
+    width: 40px;
+    padding: 5px;
+}
+
+#buttonContainer {
+    margin-bottom: 10px;
+    width: 400px;
+	margin-left: 13%;
+	margin-top: -10px;
+}
+
+#submitBet,
+#takeProfits {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	border-radius: 5%;
+}
+
+#submitBet:hover,
+#takeProfits:hover {
+    background-color: #45a049;
+}
+
+#lastCrashesContainer {
+    position: relative;
+    margin-top: -33%;
+	margin-left: 50%;
+}
+
+#lastCrashesContainer p {
+    font-weight: bold;
+}
+
+#lastCrashes {
+    margin-top: 5px;
+}
+
+
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  color: white;
+  left: 30%;
+  text-align: center
+}
+
+.content h1{
+  font-size: 65px;
+}
+
+.content p{
+  margin: 0px auto;
+  margin-top: -50px;
+  font-size: 25px;
+}
